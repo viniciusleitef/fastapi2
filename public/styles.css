@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin-bottom: 50px;
+}
+ul li{
+   font-size: 20px;
+   padding: 10px;
+   background-color: rgba(0, 0, 255, 0.534);
+   border-radius: 10px;
+   width: 100px;
+   height: 20px;
+   text-align: center;
+   cursor: pointer;
+   margin: 5px 10px;
+}
+ul li:hover{
+    background-color: blue;
+    transition: 1000ms;
+}
